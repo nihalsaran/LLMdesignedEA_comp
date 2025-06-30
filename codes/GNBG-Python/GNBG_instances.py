@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Configure OpenRouter API
-OPENROUTER_API_TOKEN = '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'  # Replace with your actual token
+OPENROUTER_API_TOKEN = ''  # Replace with your actual token
 OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions'
 OPENROUTER_MODEL = 'deepseek/deepseek-r1:free'  # Equivalent model on OpenRouter
 
